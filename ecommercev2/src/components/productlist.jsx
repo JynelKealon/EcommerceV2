@@ -16,7 +16,7 @@ const ProductList = () => {
       {items.map((current) => (
         <div key={current.id} className="product">
           <span id={current.id} className="product-row-1">
-            <img src={current.img} alt={current.brand} />
+            <img src={current.img} alt={current.brand} className="productImg" />
           </span>
           <span className="product-row-1">
             <h2>{current.brand}</h2>
